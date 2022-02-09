@@ -33,10 +33,10 @@ namespace Obilet.WebUI
             services.AddRazorPages();
             services.AddHttpContextAccessor();
 
-            services.AddSingleton<ISessionService, SessionService>();
-            services.AddSingleton<ILocationService, LocationService>();
-            services.AddSingleton<IJourneyService, JourneyService>();
-            services.AddSingleton<IRestRequestService, RestRequestService>();
+            services.AddScoped<ISessionService, SessionService>();
+            services.AddScoped<ILocationService, LocationService>();
+            services.AddScoped<IJourneyService, JourneyService>();
+            services.AddScoped<IRestRequestService, RestRequestService>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.Configure<BaseUrl>(Configuration.GetSection("BaseUrl"));
