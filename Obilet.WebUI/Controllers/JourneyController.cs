@@ -23,7 +23,13 @@ namespace Obilet.WebUI.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            await SetOrGetSession();
+            if (String.IsNullOrEmpty(SessionHelper.Get(HttpContext.Session, "DeviceId")) && String.IsNullOrEmpty(SessionHelper.Get(HttpContext.Session, "SessionId")))
+            {
+                var session = await _sessionService.GetSession();
+
+                SessionHelper.Set(HttpContext.Session, "DeviceId", session.Data.DeviceId);
+                SessionHelper.Set(HttpContext.Session, "SessionId", session.Data.SessionId);
+            }
 
             var busLocations = _locationService.GetBusLocations(new BusLocation() { DeviceSession = new DeviceSession() { DeviceId = SessionHelper.Get(HttpContext.Session, "DeviceId"), SessionId = SessionHelper.Get(HttpContext.Session, "SessionId") }, Data = null, Date = DateTime.Now, Language = "tr-TR" });
 
@@ -47,18 +53,6 @@ namespace Obilet.WebUI.Controllers
                 Data = journeyList.Data
             };
             return View(busJourneyViewModel);
-        }
-
-        public async Task SetOrGetSession()
-        {
-            if (String.IsNullOrEmpty(SessionHelper.Get(HttpContext.Session, "DeviceId")) && String.IsNullOrEmpty(SessionHelper.Get(HttpContext.Session, "SessionId")))
-            {
-                var session = await _sessionService.GetSession();
-               
-                SessionHelper.Set(HttpContext.Session, "DeviceId", session.Data.DeviceId);
-                SessionHelper.Set(HttpContext.Session, "SessionId", session.Data.SessionId);
-            }
-
         }
 
 
