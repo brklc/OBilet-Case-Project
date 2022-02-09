@@ -10,18 +10,11 @@ namespace Obilet.Business.Conctrete
     public class SessionService : ISessionService
     {
         
-        private readonly BaseUrl _baseUrl;
         public readonly IRestRequestService _restRequestService;
-        private readonly IHttpContextAccessor _httpContextAccessor;
-        private ISession _session => _httpContextAccessor.HttpContext.Session;
-        public SessionService(BaseUrl baseUrl, IRestRequestService restRequestService, IHttpContextAccessor httpContextAccessor)
+        public SessionService(IRestRequestService restRequestService)
         {
-            _baseUrl = baseUrl;
-            _httpContextAccessor = httpContextAccessor;
             _restRequestService = restRequestService;
         }
-
-
 
         public Task<SessionResponseModel> GetSession()
         {
