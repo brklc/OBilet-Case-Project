@@ -24,7 +24,7 @@ namespace Obilet.Business.Conctrete
             {
                 httpClient.Timeout = new TimeSpan(0, 0, 360);
 
-                httpClient.DefaultRequestHeaders.Add("Authorization", "Basic JEcYcEMyantZV095WVc3G2JtVjNZbWx1");
+                httpClient.DefaultRequestHeaders.Add("Authorization", _baseUrl.Auth);
 
                 StringContent content = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json");
 
@@ -36,7 +36,7 @@ namespace Obilet.Business.Conctrete
 
                 if (responseData.StatusCode != HttpStatusCode.OK)
                 {
-                    throw new InvalidOperationException("İşlem Başarısız Oldu!");//anlamlı bişey yazılacak
+                    throw new InvalidOperationException("İşlem Başarısız Oldu!");
 
                 }
                 return Task.FromResult(response);
