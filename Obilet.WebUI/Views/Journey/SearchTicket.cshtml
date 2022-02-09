@@ -1,0 +1,31 @@
+﻿@using Obilet.WebUI.ViewModels
+@model BusJourneyViewModel
+
+@if (Model.Data != null && Model.Data.Count > 0)
+{
+    foreach (var item in Model.Data)
+    {
+        <div class="col-md-4 mx-auto mt-2">
+             <div class="card card-01">
+
+            <div class="card-body text-center">
+                <h5 class="card-title"> @item.PartnerName</h5>
+                <h6 class="card-title">Kalkış:  @item.Journey.Departure.ToString("HH:mm")</h6>
+                <h6 class="card-title">Varış: @item.Journey.Arrival.ToString("HH:mm")</h6>
+                <button type="button" class="btn btn-primary">
+                    @item.Journey.InternetPrice ₺
+
+                </button>
+                <p class="card-text">@item.Journey.Origin -> @item.Journey.Destination </p>
+            </div>
+        </div>
+        </div>
+
+    }
+}
+else
+{
+    <div class="alert alert-danger" role="alert">
+        Sonuç Bulunamadı!
+    </div>
+}

@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.WebUI\\Obilet.WebUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.Business\\Obilet.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.Business\\Obilet.Business.csproj",
+        "projectName": "Obilet.Business",
+        "projectPath": "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.Business\\Obilet.Business.csproj",
+        "packagesPath": "C:\\Users\\burakk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\burakk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\sys-04\\UserFiles\\GENEL ORTAK\\Nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.Core\\Obilet.Core.csproj": {
+                "projectPath": "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.Core\\Obilet.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.Core\\Obilet.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.Core\\Obilet.Core.csproj",
+        "projectName": "Obilet.Core",
+        "projectPath": "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.Core\\Obilet.Core.csproj",
+        "packagesPath": "C:\\Users\\burakk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\burakk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\sys-04\\UserFiles\\GENEL ORTAK\\Nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.WebUI\\Obilet.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.WebUI\\Obilet.WebUI.csproj",
+        "projectName": "Obilet.WebUI",
+        "projectPath": "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.WebUI\\Obilet.WebUI.csproj",
+        "packagesPath": "C:\\Users\\burakk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\burakk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\sys-04\\UserFiles\\GENEL ORTAK\\Nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.Business\\Obilet.Business.csproj": {
+                "projectPath": "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.Business\\Obilet.Business.csproj"
+              },
+              "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.Core\\Obilet.Core.csproj": {
+                "projectPath": "C:\\Users\\burakk\\source\\repos\\OBilet-Case-Project\\Obilet.Core\\Obilet.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

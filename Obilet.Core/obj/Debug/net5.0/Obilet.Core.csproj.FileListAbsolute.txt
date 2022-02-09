@@ -1,0 +1,12 @@
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Core\obj\Debug\net5.0\Obilet.Core.csproj.AssemblyReference.cache
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Core\obj\Debug\net5.0\Obilet.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Core\obj\Debug\net5.0\Obilet.Core.AssemblyInfoInputs.cache
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Core\obj\Debug\net5.0\Obilet.Core.AssemblyInfo.cs
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Core\obj\Debug\net5.0\Obilet.Core.csproj.CoreCompileInputs.cache
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Core\bin\Debug\net5.0\Obilet.Core.deps.json
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Core\bin\Debug\net5.0\Obilet.Core.dll
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Core\bin\Debug\net5.0\ref\Obilet.Core.dll
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Core\bin\Debug\net5.0\Obilet.Core.pdb
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Core\obj\Debug\net5.0\Obilet.Core.dll
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Core\obj\Debug\net5.0\ref\Obilet.Core.dll
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Core\obj\Debug\net5.0\Obilet.Core.pdb

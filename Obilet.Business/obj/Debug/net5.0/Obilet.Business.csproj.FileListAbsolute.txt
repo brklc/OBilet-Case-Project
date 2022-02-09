@@ -1,0 +1,15 @@
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\bin\Debug\net5.0\Obilet.Business.deps.json
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\bin\Debug\net5.0\Obilet.Business.dll
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\bin\Debug\net5.0\ref\Obilet.Business.dll
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\bin\Debug\net5.0\Obilet.Business.pdb
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\obj\Debug\net5.0\Obilet.Business.csproj.AssemblyReference.cache
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\obj\Debug\net5.0\Obilet.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\obj\Debug\net5.0\Obilet.Business.AssemblyInfoInputs.cache
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\obj\Debug\net5.0\Obilet.Business.AssemblyInfo.cs
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\obj\Debug\net5.0\Obilet.Business.csproj.CoreCompileInputs.cache
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\obj\Debug\net5.0\Obilet.Business.csproj.CopyComplete
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\obj\Debug\net5.0\Obilet.Business.dll
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\obj\Debug\net5.0\ref\Obilet.Business.dll
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\obj\Debug\net5.0\Obilet.Business.pdb
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\bin\Debug\net5.0\Obilet.Core.dll
+C:\Users\burakk\source\repos\OBiletCase\Obilet.Business\bin\Debug\net5.0\Obilet.Core.pdb
