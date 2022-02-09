@@ -38,13 +38,13 @@ namespace Obilet.WebUI.Controllers
         }
 
         [HttpPost]
-        public IActionResult SearchTicket(int originId, int destinationId, DateTime date)
+        public async Task<IActionResult> SearchTicket(int originId, int destinationId, DateTime date)
         {
-            var journeyList = _journeyService.GetBusJourneys(new BusJourney() { Data = new Data() { OriginId = originId, DestinationId = destinationId, DepartureDate = date }, Date = DateTime.Now, DeviceSession = new DeviceSession() { DeviceId = SessionHelper.Get(HttpContext.Session, "DeviceId"), SessionId = SessionHelper.Get(HttpContext.Session, "SessionId") }, Language = "tr-TR" });
+            var journeyList = await _journeyService.GetBusJourneys(new BusJourney() { Data = new Data() { OriginId = originId, DestinationId = destinationId, DepartureDate = date }, Date = DateTime.Now, DeviceSession = new DeviceSession() { DeviceId = SessionHelper.Get(HttpContext.Session, "DeviceId"), SessionId = SessionHelper.Get(HttpContext.Session, "SessionId") }, Language = "tr-TR" });
 
             BusJourneyViewModel busJourneyViewModel = new BusJourneyViewModel()
             {
-                Data = journeyList.Result.Data
+                Data = journeyList.Data
             };
             return View(busJourneyViewModel);
         }
